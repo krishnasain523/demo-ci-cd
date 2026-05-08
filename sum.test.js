@@ -9,6 +9,6 @@ test("adds -5 + -5 is equal -10",()=>{
     expect(sum(-5,-5)).toBe(-10)
 })
 test("adds -30 + -30 is equal -60",()=>{
-    expect(sum(-30,-30)).toBe(-60)
+    expect(sum(-30,30)).toBe(-60)
 })
 })
